@@ -1,0 +1,64 @@
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu Sans", sans-serif !important;
+  }
+
+  .nav-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-menu ul{
+    width: 100%;
+  }
+
+  .nav-menu ul li a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-menu ul li a:hover{
+    color: var(--bg-color);
+  }
+
+
+  .nav-menu ul li a:hover::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: red;
+    margin-top: 10px;
+  }
+
+  .nav-btn{
+    width: 100px;
+    padding: 15px 10px;
+    margin: 10px;
+    height: 50px;
+    background: var(--bg-color) !important;
+    border: none;
+    border-radius: 7px !important;
+    font-size: 14px !important;
+    color: var(--text-color) !important;
+    cursor: pointer;
+  }
+
+  .nav-btn:hover{
+    background: grey !important;
+  }
+
+  .menu-btn{
+    display: none !important;
+  }
+
+  /* .location:hover{
+    transform: scale(1.08);
+    transition: 1s;
+  } */

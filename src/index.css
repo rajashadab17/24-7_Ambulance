@@ -1,0 +1,45 @@
+
+:root {
+  --bg-color: red;
+  --text-color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.x-center {
+  display: flex;
+  justify-content: center;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.y-center {
+  display: flex;
+  align-items: center;
+}
+
+.x-y-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

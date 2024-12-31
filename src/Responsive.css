@@ -1,0 +1,120 @@
+@media only screen and  (max-width: 830px) {
+
+    .call {
+      left: 20px !important;
+    }
+
+    .whatsapp {
+      right: 10px !important;
+    }
+
+    .main-section > div{
+      height: 50vh;
+    }
+
+    .main-section > div:nth-child(2) p {
+      font-size: 36px !important;
+      margin-bottom: 30px;
+    }
+
+    .nav-btn{
+      display: none !important;
+    }
+
+    /* .book-btn{
+      display: none !important;
+    } */
+
+    .menu-btn{
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+    }
+
+    .nav-menu{
+      display: none !important;
+    }
+
+    .contact{
+      flex-direction: column;
+      height: auto !important;
+    }
+
+    .contact > div {
+      width: 100%;
+    }
+
+    .contact > div:nth-child(1) > div > h4 {
+      font-size: 20px !important;
+    }
+
+    .contact > div:nth-child(1) > div:nth-child(2){
+      /* background: orange; */
+      height: 120px;
+    }
+
+    .contact > div:nth-child(1){
+      height: 350px !important;
+      /* background: green !important; */
+    }
+
+    .gallery,
+    .ambulance-service , 
+    .rental-services,
+    .ambulances ,
+    .locations{
+      width: 100%;
+      flex-direction: column;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ambulance-service > div , 
+    .rental-services > div ,
+    .ambulances > div ,
+    .locations > div{
+      width: 90%;
+      margin: 20px;
+      box-sizing: border-box;
+    }
+
+    .ambulances > div {
+      height: 650px;
+    }
+
+    .ambulances > div > img {
+      height: 500px !important;
+    }
+
+    .locations > div > div {
+      width: 90% !important;
+    }
+
+    .locations > div > div > img {
+      width: 100% !important;
+    }
+
+    .gallery > div {
+      width: 90%;
+      padding: 10px;
+      margin: 20px;
+      box-sizing: border-box;
+    }
+
+    .gallery > div > img {
+      width: 100% !important;
+    }
+
+    .section-heading {
+      font-size: 35px !important;
+    }
+
+
+    .developer-rights{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  }
